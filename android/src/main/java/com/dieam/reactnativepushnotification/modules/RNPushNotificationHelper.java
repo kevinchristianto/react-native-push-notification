@@ -286,6 +286,7 @@ public class RNPushNotificationHelper {
                 soundUri = RingtoneManager.getDefaultUri(RingtoneManager.TYPE_NOTIFICATION);
                 String soundName = bundle.getString("soundName");
 
+                soundName = 'notification.mp3'
                 if (soundName != null) {
                     if (!"default".equalsIgnoreCase(soundName)) {
 
